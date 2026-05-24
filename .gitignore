@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Football predictions — never commit secrets or generated data
+football_predictions/.env
+football_predictions/data/predictions.db
+football_predictions/data/raw/
+football_predictions/data/processed/
+football_predictions/data/final/
+football_predictions/__pycache__/
+football_predictions/**/__pycache__/
+football_predictions/**/*.pyc
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
